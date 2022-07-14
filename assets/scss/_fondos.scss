@@ -1,0 +1,10 @@
+@each $imagen, $nombre in $fondos{
+    .imagenFondo#{$imagen}{
+        background-image: url(../img/#{$nombre});
+        background-repeat: no-repeat;
+        background-size: cover;
+        @if $imagen != $fondoPrincipal {
+            background-position: center;
+        }
+    }
+}

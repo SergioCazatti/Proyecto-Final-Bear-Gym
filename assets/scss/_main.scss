@@ -1,0 +1,71 @@
+.cajaOpaca{
+    background-color: rgb(0,0,0,0.50);
+}
+
+
+.inputTexto{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-color: grey;
+    border-radius: 10px;
+    border-style: solid;
+    background-image: url(../img/search.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: right;    
+}
+
+.cajaContacto{
+    color: lightgray;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgb(39, 38, 38);
+}
+
+.infoContacto{
+    img{
+        margin-top: 10px;
+        width: 20px;
+        padding-right: 10px;
+    }
+}
+
+.formularioContacto{
+    input{
+        height: 40px;
+        width: 50%;
+    }
+    textarea{
+        width: 100%;
+    }
+}
+
+.fontContacto{
+    font-size: 1.2rem;
+    color: grey;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgb(39, 38, 38);
+}
+
+.botonesContacto{
+    display: flex;
+    justify-content: space-around;
+    input{
+        width: 30%;
+    }
+}
+
+.mapaContactoMedio{
+    text-align: center;
+}
+
+.mapaContactoChico{
+    display: none;
+    text-align: center;
+}
+

@@ -1,0 +1,28 @@
+.encabezado{
+    background-image: linear-gradient(to left, $colorFondo, $colorPrincipal);
+}
+
+.redesSociales{
+    img{
+        width: 24px;
+    }
+}
+
+.navbar{
+    ul{
+        li{
+            &:hover{
+                background-color: $colorPrincipal;
+                color: $colorTexto;
+            }
+            a{
+                text-decoration: none;
+                color: $colorTexto;
+            }
+        }
+    }
+    .seleccionado{
+        background-color: $colorSeleccionado;
+        color: $colorTexto;
+    }
+}

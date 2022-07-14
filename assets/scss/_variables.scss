@@ -1,0 +1,30 @@
+$colorTexto: white;
+$colorPrincipal: darkslateblue;
+$colorFondo: black;
+$colorSeleccionado: rgb(53, 45, 102);
+$colorHover: rgb(111, 96, 211);
+
+//variable que contiene los nombres y las extensiones de las imagenes de fondo de las páginas del proyecto
+$fondos:(
+    Inicio:"inicio.jpg",
+    Nosotros:"nosotros.jpg", 
+    Entrenamientos:"entrenamientos.jpg", 
+    Tienda:"tienda.jpg", 
+    Contacto:"contacto.webp"
+);
+
+//variable que indica cual es la imagen de la pagina principal (inicio) para que no se aplique la propiedad "position"
+$fondoPrincipal: Inicio; 
+
+//variable para definir los diferentes tamaños de botones
+$propiedadesBoton:(
+    ancho_lg: 220px,
+    ancho_md: 200px,
+    ancho_wa: 250px,
+    alto_lg: 50px,
+    alto_md: 50px,
+    alto_wa: 50px,    
+    color_lg: rgb(255, 255, 255),
+    color_md: rgb(255, 255, 255),
+    color_wa: rgb(255, 255, 255)
+);

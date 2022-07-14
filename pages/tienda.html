@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gimnasio, forma, centro, salud, tienda, articulos, productos, mancuernas, discos">
+    <meta name="description" content="Abastecemos a gimnasios, clubes, establecimientos educativos, hogares, countries y casas de deportes ofreciéndoles una amplia gama de artículos deportivos: colchonetas, artículos de box, barras, mancuernas, discos, tobilleras, bancos de pecho, entre otros.">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Tienda - Gimnasio BEAR GYM</title>
+</head>
+<body class="container-fluid">
+    
+    <div class="row sticky-top fondoNegroSuperior">
+      
+        <div class="col-9 col-md-6 p-0">
+            <div class="d-flex ps-4 encabezado" data-aos="fade-right" data-aos-duration="2500">
+                <div class="img-fluid">
+                    <a href="../index.html"><img src="../assets/img/logo-small_blanco.png" alt="BearGym" /></a>
+                </div>
+                <div class="d-flex flex-column justify-content-center redesSociales" >
+                    <a href="https://www.facebook.com" target="_blank"><img src="../assets/img/facebook.PNG" alt="Facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../assets/img/instagram.PNG" alt="Instagram"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="../assets/img/twitter.PNG" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 col-md-6 d-flex align-items-center justify-content-end" data-aos="fade-left" data-aos-duration="2500" data-aos-delay="800">
+
+            <!--Nav-->
+            <nav class="navbar navbar-expand-md bg-black navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./entrenamientos.html">Entrenamientos</a>
+                            </li>
+                            <li class="nav-item seleccionado">
+                                <a class="nav-link" href="#">Tienda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--Header-->
+    <header class="imagenFondoTienda d-flex justify-content-center">
+        <div class="row d-flex justify-content-around">
+            <div class="col-9 text-center cajaOpaca">
+                <h1 class="fs-1 fw-bold p-3 text-light" data-aos="zoom-in">TIENDA</h1>
+                <h3 class="fs-5 fw-bold p-3 text-light" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Abastecemos a gimnasios, clubes, establecimientos educativos, hogares, countries y casas de deportes ofreciéndoles una amplia gama de artículos deportivos: colchonetas, artículos de box, barras,	mancuernas, discos, tobilleras, bancos de pecho, entre otros.</h3>
+                <h3 class="fs-5 fw-bold p-3 text-light" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Toda la confianza de nuestro local, ahora en la web!</h3>
+                <h3 class="fs-5 fw-bold p-3 text-light" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">¡Descuentos, Novedades y más!</h3>
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <main>
+        <div class="row d-flex just">
+            <p class="clo-12 fs-3 text-light text-center" >Nuestros Productos Destacados</p>                
+        </div>
+
+
+        <div class="row justify-content-end align-items-center herramientasTienda">
+            <div class="col-12 text-end">
+                <input type="text" class="inputTexto" id="buscar" name="buscar" placeholder="    Buscar..." required>
+                <a data-bs-toggle="offcanvas"  href="#offcanvasCarrito"><img src="../assets/img/carrito.png" alt="Carrito"></a>
+            </div>
+
+        </div>        
+
+
+        <div class="row">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 d-flex justify-content-around">
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/amino.jpeg" class="card-img-top" alt="Amino">
+                        <div class="card-body">
+                            <h5 class="card-title">Amino Energy</h5>
+                            <p>$ 1.200</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>                                        
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/bike.jpeg" class="card-img-top" alt="Bicicleta MTB">
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta MTB</h5>
+                            <p>$ 56.000</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/bolsa.jpeg" class="card-img-top" alt="Bolsa">
+                        <div class="card-body">
+                            <h5 class="card-title">Bolsa</h5>
+                            <p>$ 8.000</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/bikeFija.jpeg" class="card-img-top" alt="Bicicleta Fija">
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta Fija</h5>
+                            <p>$ 36.000</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>                                
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/rolos.jpeg" class="card-img-top" alt="Rolo">
+                        <div class="card-body">
+                            <h5 class="card-title">Rolo</h5>
+                            <p>$ 800</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/proteina.jpeg" class="card-img-top" alt="Barra Proteina">
+                        <div class="card-body">
+                            <h5 class="card-title">Barra Proteina</h5>
+                            <p>$ 220</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/cuerda.jpeg" class="card-img-top" alt="Cuerda">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuerda</h5>
+                            <p>$ 550</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/zapa1.jpeg" class="card-img-top" alt="Zapatilla Azul">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapatilla Azul</h5>
+                            <p>$ 15.000</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-2" >
+                        <img src="../assets/img/zapa2.jpeg" class="card-img-top" alt="Zapatilla Roja">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapatilla Roja</h5>
+                            <p>$ 12.000</p>
+                            <h5 class="card-title text-center">
+                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Agregar
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>                                                                                
+
+            </div>
+        </div>
+    </main>            
+
+    <!--Footer-->
+    <footer class="row pie">
+        <div class="col-12 text-light d-flex justify-content-around mt-2">
+            <p>Copyright © 2022 - BEAR GYM - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"><strong>Aviso!</strong></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>El producto se agregó al carrito de compra</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Off Canvas -->    
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCarrito" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLabel">Carrito de Compras</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Productos / artículos incluidos
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+</body>
+</html>
