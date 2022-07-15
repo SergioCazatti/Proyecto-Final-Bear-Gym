@@ -106,6 +106,10 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.fotosCarrousel {
+  background-color: rgb(32, 31, 32);
+}
+
 .inputTexto {
   margin: 10px;
   width: 300px;
