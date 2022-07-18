@@ -224,9 +224,18 @@
     </main>            
 
     <!--Footer-->
-    <footer class="row pie">
-        <div class="col-12 text-light d-flex justify-content-around mt-2">
-            <p>Copyright © 2022 - BEAR GYM - Todos los derechos reservados.</p>
+    <footer class="row pie d-flex justify-content-around align-items-center">
+        <div class="col-12 col-md-4 infoContacto p-3" data-aos="fade" data-aos-duration="2500">
+            <img src="../assets/img/ubicacion.PNG" alt="ubicacion"> San Martín 918, Paraná ER - CP 3100<br>
+            <img src="../assets/img/telefono.PNG" alt="telefono"> +54-0343-444-5555<br>
+            <img src="../assets/img/mail.PNG" alt="mail">info@dominio.com   
+        </div>
+        <div class="col-12 col-md-4 p-3" >Copyright © 2022 - BEAR GYM - Todos los derechos reservados.</div>
+        <div class="col-12 col-md-4 infoContacto p-3"  data-aos="fade" data-aos-duration="2500">
+            <img src="../assets/img/time.png" alt="ubicacion">Horarios<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lunes - Viernes - 7:00 - 22:00<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saturday - 8:00 - 16:00<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunday - 8:00 - 12:30<br>      
         </div>
     </footer>
 
@@ -250,22 +259,59 @@
     <!-- Off Canvas -->    
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCarrito" aria-labelledby="offcanvasLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasLabel">Carrito de Compras</h5>
+          <h3 class="offcanvas-title" id="offcanvasLabel">Carrito de Compras</h3>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <div>
-            Productos / artículos incluidos
-          </div>
-          <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <div>
+                <h4> Productos / artículos incluidos </h4>
+            </div>
+
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Cant.</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Bolsa</td>
+                        <td>$8.000</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Amino Energy</td>
+                        <td>$1.200</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Barra Proteina</td>
+                        <td>$1.320</td>
+                      </tr>
+                      <tr class="fw-bold">
+                        <td></td>
+                        <td>TOTAL</td>
+                        <td>$10.520</td>
+                      </tr>                      
+                    </tbody>
+                  </table>
+            </div>
+
+
+
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Acciones
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Cerrar Compra !</a></li>
+                    <li><a class="dropdown-item" href="#">Seguir Comprando...</a></li>
+                    <li><a class="dropdown-item" href="#">Cancelar Compra y Vaciar Carrito.</a></li>
+                </ul>
           </div>
         </div>
       </div>
