@@ -17,7 +17,7 @@
     }
 }    
 
-@each $tamaño in (lg,md,wa){
+@each $tamaño in (lg,md,wa,sm){
     .boton_#{$tamaño}{
         @extend .boton;
         @include propiedades(map-get($propiedadesBoton, ancho_#{$tamaño}), map-get($propiedadesBoton, alto_#{$tamaño}), map-get($propiedadesBoton, color_#{$tamaño}));

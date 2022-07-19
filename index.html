@@ -72,7 +72,7 @@
                 <h1 class="fs-1 fw-bold p-3 text-light" data-aos="zoom-in">MANTENÉ TU CUERPO</h1>
                 <h2 class="fs-2 fw-bold p-3 text-light" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">Fuerte y En Forma</h2>
                 <h3 class="fs-5 fw-bold p-3 text-light" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Centro de salud fitness donde tu cuerpo toma forma. Empieza a entrenar ahora para mantenerte en forma y saludable todo el año.</h3>
-                <button class= "boton_lg" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1200">Ingresar !</button>
+                <button class= "boton_lg" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1200" data-bs-toggle="modal" data-bs-target="#ingresoClientes">Ingreso Clientes...</button>
                 <br><br><br><br><br>
             </div>
         </div>
@@ -95,7 +95,32 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunday - 8:00 - 12:30<br>      
         </div>
     </footer>
-    
+
+    <!-- Modal Ingreso Clientes -->
+    <div class="modal fade" id="ingresoClientes" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content cajaContacto">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"><strong>Ingreso de Clientes</strong></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>Ingrese sus credenciales</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="emailUsuario" placeholder="eMail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="clave" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn boton_md">Continuar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>    
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
