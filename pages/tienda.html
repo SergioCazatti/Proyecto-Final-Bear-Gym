@@ -40,7 +40,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4 text-end">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                             </li>
@@ -82,10 +82,10 @@
         </div>
 
 
-        <div class="row justify-content-end align-items-center herramientasTienda">
-            <div class="col-12 text-center">
+        <div class="row justify-content-end align-items-center herramientasTienda m-3">
+            <div class="col-12 text-center ">
                 <input type="text" class="inputTexto" id="buscar" name="buscar" placeholder="    Buscar..." required>
-                <a data-bs-toggle="offcanvas"  href="#offcanvasCarrito"><i class="bi bi-cart2 text-light fs-2"></i></a>
+                <a class="btn btn-outline-light" data-bs-toggle="offcanvas"  href="#offcanvasCarrito"><i class="bi bi-cart2 fs-2 pe-3"></i>Ver Carrito...</a>
             </div>
 
         </div>        
@@ -225,19 +225,27 @@
     </main>            
 
     <!--Footer-->
-    <footer class="row pie d-flex justify-content-around align-items-center">
+    <footer class="row pie d-flex justify-content-around  align-items-center">
         <div class="col-12 col-md-4 infoContacto p-3" data-aos="fade" data-aos-duration="2500">
-            <img src="../assets/img/ubicacion.PNG" alt="ubicacion"> San Martín 918, Paraná ER - CP 3100<br>
-            <img src="../assets/img/telefono.PNG" alt="telefono"> +54-0343-444-5555<br>
-            <img src="../assets/img/mail.PNG" alt="mail">info@dominio.com   
+            <P class="fw-bold">CONTACTO</P>
+            <i class="bi bi-geo-alt-fill text-light pe-3"></i>San Martín 918, Paraná ER - CP 3100<br>
+            <i class="bi bi-telephone text-light pe-3"></i>+54-0343-444-5555<br>
+            <i class="bi bi-envelope text-light pe-3"></i>info@dominio.com   
         </div>
-        <div class="col-12 col-md-4 p-3" >Copyright © 2022 - BEAR GYM - Todos los derechos reservados.</div>
         <div class="col-12 col-md-4 infoContacto p-3"  data-aos="fade" data-aos-duration="2500">
-            <img src="../assets/img/time.png" alt="ubicacion">Horarios<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lunes - Viernes - 7:00 - 22:00<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saturday - 8:00 - 16:00<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunday - 8:00 - 12:30<br>      
+            <P class="fw-bold">PLANES DE PRECIOS<p>
+            <i class="bi bi-bag-check text-light pe-3"></i>Una vez - $200<br>
+            <i class="bi bi-bag-check text-light pe-3"></i>Pase Semanal - $1.000<br>
+            <i class="bi bi-bag-check text-light pe-3"></i>Pase Mensual - $2.200<br>      
+            <i class="bi bi-bag-check text-light pe-3"></i>Pase Anual - $20.000<br>      
         </div>
+        <div class="col-12 col-md-4 infoContacto p-3"  data-aos="fade" data-aos-duration="2500">
+            <P class="fw-bold">HORARIOS</p>
+            <i class="bi bi-calendar4-week text-light pe-3"></i>Lunes - Viernes - 7:00 - 22:00<br>
+            <i class="bi bi-calendar4-event text-light pe-3"></i>Sábados - 8:00 - 16:00<br>
+            <i class="bi bi-calendar4-event text-light pe-3"></i>Domingos - 8:00 - 12:30<br>      
+        </div>
+        <div class="col-12 col-md-12 p-3 pieFinal  text-center" >Copyright © 2022 - BEAR GYM - Todos los derechos reservados.</div>
     </footer>
 
 

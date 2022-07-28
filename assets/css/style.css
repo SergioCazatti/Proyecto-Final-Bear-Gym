@@ -138,8 +138,8 @@ body {
 
 .inputTexto {
   margin: 10px;
-  width: 300px;
-  height: 30px;
+  width: 400px;
+  height: 60px;
   font-size: 1.2rem;
   border-color: grey;
   border-radius: 10px;
@@ -204,5 +204,10 @@ body {
 
 .pie {
   background-color: rgb(37, 32, 70);
+  color: rgb(199, 197, 197);
+}
+
+.pieFinal {
+  background-color: rgb(26, 22, 48);
   color: rgb(199, 197, 197);
 }
