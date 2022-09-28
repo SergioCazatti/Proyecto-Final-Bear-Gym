@@ -11,6 +11,18 @@ class Producto{
 }
 
 
+class ProductoCarrito{
+    constructor(id, nombre, descripcion, precioUn, importe, cantidad, foto){
+        this.id = id;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precioUn = precioUn;
+        this.importe = importe;
+        this.cantidad = cantidad;
+        this.foto = foto;
+    }
+}
+
 /* const fotos = [];
 fotos.push(new Foto(1,"assets/img/amino.jpg"));
 fotos.push(new Foto(2,"assets/img/bike.jpg"));
@@ -26,7 +38,7 @@ fotos.push(new Foto(8,"assets/img/zapa2.jpg"));
 
 const productos = [];
 
-productos.push(new Producto(1,"Bicicleta MTB",4, 56000, "Bicicleta MTB", "27 velocidades","../assets/img/bike.jpg"));
-productos.push(new Producto(2,"Bicicleta Fija",4, 23000, "Bicicleta Fija", "Fija","../assets/img/bikefija.jpg"));
-productos.push(new Producto(2,"Zapatilla Roja",4, 15000, "Zapatilla Roja", "Running","../assets/img/zapa1.jpg"));
+productos.push(new Producto(1,"Bicicleta MTB",4, 56000, "Bicicleta MTB", "27 velocidades","../assets/img/bike.jpeg"));
+productos.push(new Producto(2,"Bicicleta Fija",4, 23000, "Bicicleta Fija", "Fija","../assets/img/bikefija.jpeg"));
+productos.push(new Producto(3,"Zapatilla Roja",4, 15000, "Zapatilla Roja", "Running","../assets/img/zapa1.jpeg"));
 

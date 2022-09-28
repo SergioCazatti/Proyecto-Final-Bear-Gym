@@ -85,7 +85,11 @@
         <div class="row justify-content-end align-items-center herramientasTienda m-3">
             <div class="col-12 text-center ">
                 <input type="text" class="inputTexto" id="buscar" name="buscar" placeholder="    Buscar..." required>
-                <a class="boton btn btn-outline-light" data-bs-toggle="offcanvas"  href="#offcanvasCarrito"><i class="bi bi-cart2 fs-2 pe-3"></i>Ver Carrito...</a>
+                <a class="boton btn btn-outline-light" data-bs-toggle="offcanvas"  href="#offcanvasCarrito">
+                    <i class="bi bi-cart2 fs-2 pe-3"></i>Ver Carrito
+                    <span class="top-0 left-100 translate-middle badge rounded-pill bg-light text-dark" id="cantidadEnCarrito">0</span>
+                </a>
+                
             </div>
 
         </div>        
@@ -93,133 +97,9 @@
 
         <div class="row">
             <div id="divProductos" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 d-flex justify-content-around">
-<!--                 <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/amino.jpeg" class="card-img-top" alt="Amino">
-                        <div class="card-body">
-                            <h5 class="card-title">Amino Energy</h5>
-                            <p>$ 1.200</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>                                        
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/bike.jpeg" class="card-img-top" alt="Bicicleta MTB">
-                        <div class="card-body">
-                            <h5 class="card-title">Bicicleta MTB</h5>
-                            <p>$ 56.000</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/bolsa.jpeg" class="card-img-top" alt="Bolsa">
-                        <div class="card-body">
-                            <h5 class="card-title">Bolsa</h5>
-                            <p>$ 8.000</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/bikeFija.jpeg" class="card-img-top" alt="Bicicleta Fija">
-                        <div class="card-body">
-                            <h5 class="card-title">Bicicleta Fija</h5>
-                            <p>$ 36.000</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>                                
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/rolos.jpeg" class="card-img-top" alt="Rolo">
-                        <div class="card-body">
-                            <h5 class="card-title">Rolo</h5>
-                            <p>$ 800</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/proteina.jpeg" class="card-img-top" alt="Barra Proteína">
-                        <div class="card-body">
-                            <h5 class="card-title">Barra Proteína</h5>
-                            <p>$ 220</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/cuerda.jpeg" class="card-img-top" alt="Cuerda">
-                        <div class="card-body">
-                            <h5 class="card-title">Cuerda</h5>
-                            <p>$ 550</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/zapa1.jpeg" class="card-img-top" alt="Zapatilla Azul">
-                        <div class="card-body">
-                            <h5 class="card-title">Zapatilla Azul</h5>
-                            <p>$ 15.000</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card m-2" >
-                        <img src="../assets/img/zapa2.jpeg" class="card-img-top" alt="Zapatilla Roja">
-                        <div class="card-body">
-                            <h5 class="card-title">Zapatilla Roja</h5>
-                            <p>$ 12.000</p>
-                            <h5 class="card-title text-center">
-                                <button type="button" class="boton_md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Agregar
-                                </button>
-                            </h5>
-                        </div>
-                    </div>
-                </div>                                                                                
- -->
+
+            <!--Aquí se renderizan los productos de la tienda-->
+
             </div>
         </div>
     </main>            
@@ -271,51 +151,35 @@
           <h3 class="offcanvas-title" id="offcanvasLabel">Carrito de Compras</h3>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+
         <div class="offcanvas-body">
-            <div>
+            <div class="mb-5">
                 <h4> Productos / artículos incluidos </h4>
             </div>
 
-            <div>
-                <table class="table fs-6 text-light">
-                    <thead>
-                      <tr>
-                        <th>Cant.</th>
-                        <th>Descripción</th>
-                        <th>Precio</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>Bolsa</td>
-                        <td>$8.000</td>
-                        <td><button type="button" class="btn "><i class="bi bi-trash text-danger"></i></button></td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>Amino Energy</td>
-                        <td>$1.200</td>
-                        <td><button type="button" class="btn"><i class="bi bi-trash text-danger"></i></button></td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td>Barra Proteina</td>
-                        <td>$1.320</td>
-                        <td><button type="button" class="btn"><i class="bi bi-trash text-danger"></i></button></td>
-                      </tr>
-                      <tr class="fw-bold">
-                        <td></td>
-                        <td>TOTAL</td>
-                        <td>$10.520</td>
-                      </tr>                      
-                    </tbody>
-                  </table>
+            <div class="col-12 d-flex justify-content-around fs-6 pb-3">
+				<div class="col-2 border-bottom">Cantidad</div>
+				<div class="col-6 border-bottom">Descripción</div>
+				<div class="col-2 border-bottom">Importe</div>
+				<div class="col-2 border-bottom"></div>
+			</div>	
+
+
+            <div id="carritoCompra">
+<!--Aqui se renderiza el carrito-->
             </div>
 
 
+            <div class="col-12 d-flex justify-content-around fs-6 pt-3 pb-3 fw-bold">
+				<div class="col-2 "></div>
+				<div class="col-6 ">TOTAL</div>
+				<div class="col-2 " id="totalCarrito">$0</div>
+				<div class="col-2 "></div>
+			</div>	
+			
+			
 
-            <div class="dropdown mt-3">
+            <div class="dropdown mt-5">
                 <button class="btn boton_md dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
                     Acciones
                 </button>
@@ -324,7 +188,8 @@
                     <li><a class="dropdown-item" href="#">Seguir Comprando...</a></li>
                     <li><a class="dropdown-item" href="#">Cancelar Compra y Vaciar Carrito.</a></li>
                 </ul>
-          </div>
+            </div>
+
         </div>
       </div>
 
